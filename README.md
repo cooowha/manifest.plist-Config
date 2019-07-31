@@ -7,7 +7,7 @@
 首先我们需要配置一个plist文件，包含2种尺寸的icon图标、app基本信息、和ipa文件的下载地址等，下面我们就以一个例子，介绍下具体的实现步骤：
 
 1. Plist 文件
-
+```
     # manifest-demo.plist 文件
     ....
     <array>
@@ -44,6 +44,7 @@
     				<string>subName</string>				  <!-- 副标题 -->
     			</dict>
     ....
+```
 
 上面是一个plist配置文件的demo，可以直接在上面修改相关信息，也可以在Archive 打包的时候在Xcode 的提示框中勾选同时生成该plist文件。一般都采取直接修改现成的plist文件即可。
 
